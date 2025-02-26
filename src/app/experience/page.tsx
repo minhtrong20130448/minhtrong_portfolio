@@ -16,16 +16,17 @@ const clientProjects = [
 
 const personalProjects = [
   {
-    title: "Movie App",
+    title: "Movie Watching Website",
     description:
-      "A Next.js-based movie listing website with authentication and filtering.",
-    tech: ["Next.js", "Tailwind CSS", "Firebase"],
+      "Developed a movie streaming website that allows users to browse and watch movies.",
+    tech: ["Next.js", "Tailwind CSS", "Redux"],
     image: "/phimplus_home.png",
   },
   {
-    title: "Task Manager",
-    description: "A personal task management app with Flutter for mobile.",
-    tech: ["Flutter", "Dart", "Firebase"],
+    title: "Portfolio Website",
+    description:
+      "Developed a personal portfolio website to showcase my skills, work experience, and projects.",
+    tech: ["Next.js", "Tailwind CSS"],
     image: "/portforio.png",
   },
 ];
