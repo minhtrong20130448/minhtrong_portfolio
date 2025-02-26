@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 const clientProjects = [
   {
-    year: "2024/12 - 2024/3",
+    year: "10/2024 - 3/2025",
     client: "Educhain",
     role: "Frontend Developer",
     description:
