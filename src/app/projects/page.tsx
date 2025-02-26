@@ -42,9 +42,7 @@ const ProjectPage = () => {
     <div className="max-w-screen-xl mx-auto relative my-20">
       <section className="py-10">
         <div className="mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">
-            My personalProjects{" "}
-          </h2>
+          <h2 className="text-3xl font-bold text-center mb-8">My Projects</h2>
           <div className="space-y-12 select-none ">
             {personalProjects.map((project, index) => (
               <motion.div

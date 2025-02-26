@@ -35,16 +35,16 @@ const ContactPage = () => {
   };
   return (
     <div className="max-w-screen-xl mx-auto relative my-20">
-      <h1 className="w-full text-center text-[30px] font-bold pt-8">
+      <h1 className="w-full text-center sm:text-[30px] text-[25px] font-bold pt-8">
         Get in touch
       </h1>
-      <p className="w-full text-center text-gray-500 mt-2 text-[20px] max-w-[800px] mx-auto mb-10">
+      <p className="w-full text-center text-gray-500 mt-2 sm:text-[20px] text-[18px] max-w-[800px] mx-auto mb-10">
         I’m always open to new opportunities and meaningful conversations! If
         you’re looking for a frontend developer to collaborate with, feel free
         to reach out.
       </p>
       <form onSubmit={handleSubmit}>
-        <div className="flex flex-col lg:flex-row lg:max-w-[1400px] gap-4 text-[20px] m-4w-full justify-center m-4">
+        <div className="flex flex-col lg:flex-row lg:max-w-[1400px] gap-4 sm:text-[20px] text-[16px] m-4w-full justify-center m-4">
           <div className="flex flex-col gap-4">
             <div>Looking forward to connecting with you!</div>
             <div className="flex items-center mt-2 gap-2">
