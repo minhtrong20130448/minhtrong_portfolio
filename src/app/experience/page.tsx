@@ -10,7 +10,7 @@ const clientProjects = [
     role: "Frontend Developer",
     description:
       "Developed a modern web application using Next.js and Tailwind CSS.",
-    logo: "educhain_logo.png",
+    logo: "/educhain_logo.png",
   },
 ];
 
@@ -20,13 +20,13 @@ const personalProjects = [
     description:
       "A Next.js-based movie listing website with authentication and filtering.",
     tech: ["Next.js", "Tailwind CSS", "Firebase"],
-    image: "phimplus_home.png",
+    image: "/phimplus_home.png",
   },
   {
     title: "Task Manager",
     description: "A personal task management app with Flutter for mobile.",
     tech: ["Flutter", "Dart", "Firebase"],
-    image: "portforio.png",
+    image: "/portforio.png",
   },
 ];
 
